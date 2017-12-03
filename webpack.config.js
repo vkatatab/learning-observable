@@ -17,7 +17,7 @@ const config = {
   module: {
     loaders: [
       { test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.less$/, loaders: ["style-loader", "css-loder", "less-loader"] },
+      { test: /\.less$/, loaders: ["style-loader", "css-loader", "less-loader"] },
     ]
   },
   devServer: {
